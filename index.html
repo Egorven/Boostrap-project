@@ -1,256 +1,287 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная - Портфолио</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Стоматология Cerec</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css  " rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css  ">
 </head>
-<body class="bg-light">
-    <div class="container-fluid p-0">
-        <!-- Header -->
-        <header class="bg-primary text-white py-4">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col">
-                        <h1 class="h3 mb-1 text-center text-md-start">Мой Портфолио</h1>
-                        <p class="mb-0 opacity-75 text-center text-md-start">Студент разработчик</p>
+
+<body>
+
+
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <h1 class="h4 mb-0">Стоматология Cerec</h1>
+                </div>
+                <div class="col-md-5">
+                    <p class="mb-0">Профессиональная улыбка за 1 час на аппарате Cerec</p>
+                </div>
+                <div class="col-md-3 text-md-end">
+                    <a href="tel:+74951234567111" class="text-white"><i class="fas fa-phone me-2"></i>+7 (495)
+                        123-45-67</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#review">Отзывы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h2 class="display-6">Выведите вашу улыбку на новый уровень!</h2>
+                    <p class="lead">Реставрация зубов за 1 час на современном аппарате Cerec без боли и сверления.</p>
+                    <a href="#calc" class="btn btn-light btn-lg">Рассчитать стоимость</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="/images/logo.jpg" alt="Cerec" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Почему выбирают нас?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-center">
+                        <i class="fas fa-clock fa-2x text-primary mb-3"></i>
+                        <h5 class="card-title">Быстро</h5>
+                        <p class="card-text">Реставрация за 1 час — без ожидания и повторных визитов.</p>
                     </div>
-                    <div class="col-auto text-center text-md-end">
-                        <span class="badge bg-light text-primary">ЭФБО-01-22</span>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-center">
+                        <i class="fas fa-smile fa-2x text-primary mb-3"></i>
+                        <h5 class="card-title">Красиво</h5>
+                        <p class="card-text">Естественный вид реставрации, идеально подобранный по цвету.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 text-center">
+                        <i class="fas fa-shield-alt fa-2x text-primary mb-3"></i>
+                        <h5 class="card-title">Надежно</h5>
+                        <p class="card-text">Гарантия до 5 лет на все реставрации.</p>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav w-100 justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="index.html">
-                                <i class="bi bi-house me-1"></i>Главная
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="news.html">
-                                <i class="bi bi-newspaper me-1"></i>Новости
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="practices.html">
-                                <i class="bi bi-code-slash me-1"></i>Практики
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="goods.html">
-                                <i class="bi bi-cart me-1"></i>Товары
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">
-                                <i class="bi bi-telephone me-1"></i>Контакты
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-        <!-- Main Content -->
-        <main class="container my-4">
-            <!-- Profile Section -->
-            <section class="mb-5">
-                <div class="card shadow-sm">
-                    <div class="card-body p-4">
-                        <div class="row align-items-center">
-                            <div class="col-md-3 text-center mb-3 mb-md-0">
-                                <img src="images/photo.png" alt="Фото студента" 
-                                     class="img-fluid rounded-circle" style="width: 150px; height: 150px; object-fit: cover;">
-                            </div>
-                            <div class="col-md-9">
-                                <h2 class="card-title h4 text-primary text-center text-md-start">Иванов Иван Иванович</h2>
-                                <p class="card-text text-muted mb-2 text-center text-md-start">
-                                    <i class="bi bi-bookmark-check-fill text-primary"></i>
-                                    Студент группы ЭФБО-01-22
-                                </p>
-                                <p class="card-text text-center text-md-start">
-                                    Факультет информационных технологий, специальность "Веб-разработка"
-                                </p>
-                                <div class="d-flex gap-2 flex-wrap justify-content-center justify-content-md-start">
-                                    <span class="badge bg-primary">HTML/CSS</span>
-                                    <span class="badge bg-success">JavaScript</span>
-                                    <span class="badge bg-info">Bootstrap</span>
-                                    <span class="badge bg-warning">React</span>
-                                </div>
-                            </div>
+    <section class="py-5" id="services">
+        <div class="container">
+            <h2 class="text-center mb-5">Наши услуги</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/zyb.jpg" class="card-img-top" alt="Реставрация">
+                        <div class="card-body">
+                            <h5 class="card-title">Реставрация зубов</h5>
+                            <p class="card-text">Создание идеальной формы и цвета зуба за один визит.</p>
+                            <a href="#" class="btn btn-outline-primary">Подробнее</a>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- About Section -->
-            <section class="mb-5">
-                <div class="card shadow-sm">
-                    <div class="card-header bg-light">
-                        <h3 class="card-title h5 mb-0 text-center">
-                            <i class="bi bi-person-circle text-primary"></i>
-                            Обо мне
-                        </h3>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/koronki.jpg" class="card-img-top" alt="Коронки">
+                        <div class="card-body">
+                            <h5 class="card-title">Коронки Cerec</h5>
+                            <p class="card-text">Безметалловые коронки из керамики.</p>
+                            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+                        </div>
                     </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <img src="/images/vinir.jpg" class="card-img-top" alt="Виниры">
+                        <div class="card-body">
+                            <h5 class="card-title">Виниры</h5>
+                            <p class="card-text">Тонкие накладки для идеальной улыбки.</p>
+                            <a href="#" class="btn btn-outline-primary">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calc" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Получите расчет стоимости до визита в клинику</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card p-4">
+                        <form>
+                            <div class="mb-3">
+                                <label for="service" class="form-label">Выберите услугу</label>
+                                <select class="form-select" id="service">
+                                    <option>Реставрация зубов</option>
+                                    <option>Коронка</option>
+                                    <option>Винир</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="teeth" class="form-label">Количество зубов</label>
+                                <input type="number" class="form-control" id="teeth" min="1" value="1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Ваш телефон</label>
+                                <input type="tel" class="form-control" id="phone" placeholder="+7 (___) ___-__-__">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Рассчитать стоимость</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light" id="review">
+        <div class="container">
+            <h2 class="text-center mb-4">Почему 80% пациентов приходят по рекомендации?</h2>
+            <div class="d-flex overflow-auto gap-3 pb-2">
+                <div class="card flex-shrink-0" style="width: 18rem;">
                     <div class="card-body">
-                        <p class="card-text text-justify">
-                            Я увлекаюсь веб-разработкой и изучаю современные технологии. 
-                            В свободное время занимаюсь созданием пет-проектов и изучаю новые фреймворки.
+                        <p class="card-text">
+                            <i class="fas fa-quote-left text-muted me-1"></i>
+                            Очень доволен результатом. Зуб выглядит как настоящий, а процесс прошёл без боли и стресса.
                         </p>
-                        <p class="card-text text-justify">
-                            Мои основные интересы: фронтенд разработка, UX/UI дизайн и мобильная разработка.
-                            Стремлюсь к созданию качественных и удобных пользовательских интерфейсов.
+                        <footer class="blockquote-footer">Иван Петров</footer>
+                    </div>
+                </div>
+
+                <div class="card flex-shrink-0" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="fas fa-quote-left text-muted me-1"></i>
+                            Спасибо доктору за профессионализм и внимание! Всё сделали аккуратно и быстро.
                         </p>
+                        <footer class="blockquote-footer">Мария Сидорова</footer>
                     </div>
                 </div>
-            </section>
 
-            <!-- Skills Section -->
-            <section class="mb-5">
-                <div class="card shadow-sm">
-                    <div class="card-header bg-light">
-                        <h3 class="card-title h5 mb-0 text-center">
-                            <i class="bi bi-tools text-primary"></i>
-                            Мои навыки
-                        </h3>
-                    </div>
+                <div class="card flex-shrink-0" style="width: 18rem;">
                     <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <div class="d-flex justify-content-between mb-1">
-                                        <span>HTML/CSS</span>
-                                        <span class="text-primary">90%</span>
-                                    </div>
-                                    <div class="progress" style="height: 8px;">
-                                        <div class="progress-bar bg-primary" style="width: 90%"></div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="d-flex justify-content-between mb-1">
-                                        <span>JavaScript</span>
-                                        <span class="text-primary">75%</span>
-                                    </div>
-                                    <div class="progress" style="height: 8px;">
-                                        <div class="progress-bar bg-success" style="width: 75%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mb-3">
-                                    <div class="d-flex justify-content-between mb-1">
-                                        <span>Bootstrap</span>
-                                        <span class="text-primary">85%</span>
-                                    </div>
-                                    <div class="progress" style="height: 8px;">
-                                        <div class="progress-bar bg-info" style="width: 85%"></div>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="d-flex justify-content-between mb-1">
-                                        <span>React</span>
-                                        <span class="text-primary">70%</span>
-                                    </div>
-                                    <div class="progress" style="height: 8px;">
-                                        <div class="progress-bar bg-warning" style="width: 70%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <p class="card-text">
+                            <i class="fas fa-quote-left text-muted me-1"></i>
+                            Записался на реставрацию, а уехал с новой улыбкой. Цены приятные, сервис на высоте.
+                        </p>
+                        <footer class="blockquote-footer">Алексей Козлов</footer>
                     </div>
                 </div>
-            </section>
 
-            <!-- Projects Section -->
-            <section class="mb-5">
-                <div class="card shadow-sm">
-                    <div class="card-header bg-light">
-                        <h3 class="card-title h5 mb-0 text-center">
-                            <i class="bi bi-folder-fill text-primary"></i>
-                            Мои проекты
-                        </h3>
-                    </div>
+                <div class="card flex-shrink-0" style="width: 18rem;">
                     <div class="card-body">
-                        <div class="row g-3">
-                            <div class="col-md-4">
-                                <div class="card h-100 text-center">
-                                    <img src="images/project1.jpg" class="card-img-top" alt="Личный сайт" style="height: 150px; object-fit: cover;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Личный сайт</h5>
-                                        <p class="card-text small text-muted">
-                                            Сайт-портфолио на HTML, CSS и Bootstrap с адаптивным дизайном.
-                                        </p>
-                                        <div class="mb-2">
-                                            <span class="badge bg-primary">HTML</span>
-                                            <span class="badge bg-primary">CSS</span>
-                                            <span class="badge bg-primary">Bootstrap</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card h-100 text-center">
-                                    <img src="images/project2.jpg" class="card-img-top" alt="Todo приложение" style="height: 150px; object-fit: cover;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Todo приложение</h5>
-                                        <p class="card-text small text-muted">
-                                            Приложение для управления задачами с использованием JavaScript.
-                                        </p>
-                                        <div class="mb-2">
-                                            <span class="badge bg-success">JavaScript</span>
-                                            <span class="badge bg-success">LocalStorage</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card h-100 text-center">
-                                    <img src="images/project3.jpg" class="card-img-top" alt="Интернет-магазин" style="height: 150px; object-fit: cover;">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Интернет-магазин</h5>
-                                        <p class="card-text small text-muted">
-                                            Прототип интернет-магазина с корзиной товаров и фильтрацией.
-                                        </p>
-                                        <div class="mb-2">
-                                            <span class="badge bg-info">React</span>
-                                            <span class="badge bg-info">API</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <p class="card-text">
+                            <i class="fas fa-quote-left text-muted me-1"></i>
+                            Отличная клиника! Всё объяснили, показали, сделали без боли. Рекомендую!
+                        </p>
+                        <footer class="blockquote-footer">Елена Волкова</footer>
                     </div>
                 </div>
-            </section>
-        </main>
 
-        <!-- Footer -->
-        <footer class="bg-dark text-white py-4 mt-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center text-md-start">
-                        <p class="mb-0">&copy; 2024 Портфолио студента. Все права защищены.</p>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <a href="contacts.html" class="text-white text-decoration-none me-3">Контакты</a>
-                        <a href="#" class="text-white text-decoration-none">Политика конфиденциальности</a>
+                <div class="card flex-shrink-0" style="width: 18rem;">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <i class="fas fa-quote-left text-muted me-1"></i>
+                            Долго боялся идти к стоматологу, но здесь всё прошло легко. Очень доволен!
+                        </p>
+                        <footer class="blockquote-footer">Сергей Иванов</footer>
                     </div>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </section>
+    <section class="container py-5">
+        <h2 class="text-center mb-5" style="font-family: serif;">Сертификаты</h2>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <img src="/images/certificate1.jpg" lass="card-img-top" alt="Сертификат 1">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <img src="/images/certificate2.jpg" class="card-img-top" alt="Сертификат 2">
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card border-0">
+                    <img src="/images/certificate3.jpg" class="card-img-top" alt="Сертификат 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light" id="contacts">
+        <div class="container">
+            <h2 class="text-center mb-4">Клиника премиум класса у м. Цветной бульвар</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe
+                            src="  https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.638238382238!2d37.61678371585423!3d55.77609498055554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a58b132221b%3A0x114902084528641a!2z0JrRgNCw0LrQuNC5INCh0YDQvtC70YzRjyDRgdGC0L7Rh9C10YLRgNCw0YbQuNGP!5e0!3m2!1sru!2sru!4v1710000000000!5m2!1sru!2sru"
+                            allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5>Адрес:</h5>
+                    <p>г. Москва, ул. Старая Спасская, д. 10</p>
+                    <h5>Телефон:</h5>
+                    <p><a href="tel:+74951234567" class="text-decoration-none">+7 (495) 123-45-67</a></p>
+                    <h5>Режим работы:</h5>
+                    <p>Пн–Пт: 9:00–21:00<br>Сб–Вс: 10:00–18:00</p>
+                    <a href="mailto:info@cerec-clinic.ru" class="btn btn-outline-primary">Написать письмо</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Стоматология Cerec</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-vk"></i></a>
+                    <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
